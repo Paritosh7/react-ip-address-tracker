@@ -1,0 +1,11 @@
+#top-half-main {
+  background-image: url("../images/pattern-bg.png");
+  height: 20rem;
+}
+
+#main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}

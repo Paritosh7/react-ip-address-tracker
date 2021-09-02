@@ -1,0 +1,52 @@
+.data-spacing {
+  margin-top: 1.2rem;
+}
+
+#address-data {
+  background: white;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+@media (min-width: 700px) {
+  p {
+    text-align: left;
+  }
+
+  h2 {
+    text-align: left;
+  }
+  #top-half-main {
+    height: 16rem;
+  }
+
+  #address-data {
+    display: flex;
+    background: white;
+    z-index: 1;
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+
+  .data-spacing {
+    flex: 1 1 0;
+  }
+
+  #address-data > * + * {
+    padding-left: 1.7em;
+    border-left: solid 0.7px #d3d3d3;
+  }
+
+  #search-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    flex: 0 0 30rem;
+  }
+
+  button {
+    flex: 0 0 3rem;
+  }
+}
